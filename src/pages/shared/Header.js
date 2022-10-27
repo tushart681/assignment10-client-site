@@ -38,12 +38,13 @@ const Header = () => {
                 <Navbar.Brand href="#home">CSE-Learn</Navbar.Brand>
                 <Navbar.Brand><Link to={'/'}>Home</Link></Navbar.Brand>
                 <Navbar.Brand><Link to={'/category'}>Course</Link></Navbar.Brand>
+                <Navbar.Brand><Link to={'/blogs'}>Blogs</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link to >Courses</Nav.Link>
+                        <Nav.Link >Source</Nav.Link>
                         <Nav.Link href="#pricing">FAQ</Nav.Link>
-                        <Nav.Link href="#pricing">Blog</Nav.Link>
+                        <Nav.Link href="#pricing">Likes</Nav.Link>
                     </Nav>
                         {
                             dark ?
