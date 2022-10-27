@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Login from "../form/login/Login";
 import Register from "../form/register/Register";
 import Main from "../layout/Main";
+import Blog from "../pages/blogs/Blog";
 import Category from "../pages/category/Category";
 import Course from "../pages/Course/Course";
 import CourseDetails from "../pages/courseDetails/CourseDetails";
@@ -39,7 +40,11 @@ export const routes = createBrowserRouter([
             {
                 path: '/form/login',
                 element: <Login></Login>
-            }
+            },
+            {
+                path: '/blogs',
+                element: <Blog />
+            },
             
         ]
     }
