@@ -41,7 +41,7 @@ const Home = () => {
             
             <div className='d-flex gap-4'>
             {
-               premiumCourse.map(premium => <HomeCard key={premium._id} premium={premium}></HomeCard> ) 
+               premiumCourse.map(premium => <HomeCard key={premium.category_id} premium={premium}></HomeCard> ) 
             }
             </div>
 

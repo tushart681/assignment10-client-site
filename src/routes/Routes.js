@@ -17,17 +17,17 @@ export const routes = createBrowserRouter([
             {
                 path:'/',
                 element: <Home></Home>,
-                loader: () => fetch('http://localhost:5000/premium-course')
+                loader: () => fetch('https://assignment10-server-site-snowy.vercel.app/premium-course')
             },
             {
                 path:'category',
                 element: <Category></Category>,
-                loader: () => fetch(`http://localhost:5000/all-course`)
+                loader: () => fetch(`https://assignment10-server-site-snowy.vercel.app/all-course`)
             },
             {
                 path:'corse-details/:id',
                 element: <PrivateRoute><CourseDetails /></PrivateRoute>,
-                loader: ({params}) => fetch(`http://localhost:5000/course-detail/${params.id}`)
+                loader: ({params}) => fetch(`https://assignment10-server-site-snowy.vercel.app/course-detail/${params.id}`)
             },
             {
                 path:'/Course',
