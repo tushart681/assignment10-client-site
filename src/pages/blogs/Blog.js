@@ -14,6 +14,8 @@ const Blog = () => {
             <h2>How does the private route work?</h2>
             <br />
             <p>The react private route component renders child components ( children ) if the user is logged in. If not logged in the user is redirected to the /login page with the return url passed in the location state property.</p>
+            <br />
+            <h2>What is Node? How does Node work?</h2>
         </div>
     );
 };
