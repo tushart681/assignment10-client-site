@@ -16,6 +16,8 @@ const Blog = () => {
             <p>The react private route component renders child components ( children ) if the user is logged in. If not logged in the user is redirected to the /login page with the return url passed in the location state property.</p>
             <br />
             <h2>What is Node? How does Node work?</h2>
+            <br />
+            <p>Node. js is a JavaScript runtime environment that achieves low latency and high throughput by taking a “non-blocking” approach to serving requests. In other words, Node. js wastes no time or resources on waiting for I/O requests to return.</p>
         </div>
     );
 };
