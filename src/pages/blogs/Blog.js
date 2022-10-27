@@ -10,6 +10,8 @@ const Blog = () => {
             <h2>Why are you using firebase? What other options do you have to implement authentication?</h2>
             <br />
             <p>Firebase helps you develop high-quality apps, grow your user base, and earn more money. Each feature works independently, and they work even better together., Usually, authentication by a server entails the use of a user name and password. Other ways to authenticate can be through cards, retina scans, voice recognition, and fingerprints.</p>
+            <br />
+            <h2>How does the private route work?</h2>
         </div>
     );
 };
